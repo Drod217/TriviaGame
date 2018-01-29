@@ -174,7 +174,7 @@ function parseAnswer(){
 
 function embedGIF(){
 	$.ajax({
-		url: "http://api.giphy.com/v1/gifs/search?q=" + Questions[QuestionsAsked].GIPHYID
+		url: "https://api.giphy.com/v1/gifs/search?q=" + Questions[QuestionsAsked].GIPHYID
 		+ "&api_key=61TKqzUDPHfv40Bqr6iEsqqBCfa360mt&limit=" + Limit,
 		method: "GET"
 	}).then(function(response) {
