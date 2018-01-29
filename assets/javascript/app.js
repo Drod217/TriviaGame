@@ -2,7 +2,7 @@
 
 
 
-var Questions = [{"Question": "In our solar system which two planets are known as ice giants",
+var Questions = [{"Question": "In our solar system which two planets are known as the ice giants",
 "ChoiceOne": "Uranus and Neptune", "ChoiceTwo": "Saturn and Jupiter", "ChoiceThree": "Uranus and Saturn", 
 "ChoiceFour": "Jupiter and Neptune", "Answer": "Uranus and Neptune", "GIPHYID": "planets+neptune"},
 
