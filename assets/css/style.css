@@ -1,0 +1,174 @@
+
+body{
+	height: 100%;
+	letter-spacing: .3vw;
+}
+
+h1{
+	font-size: 4vw;
+	margin-top: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+	/* width: 60%; */
+}
+
+#opening-screen h1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 5vw;
+	color: red;
+	width: 90%;
+	padding: 4vw 4vw;
+	border-radius: 50%;
+	margin-top: 0;
+}
+
+#opening-screen p{
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.5vw;
+	padding: 2vw 2vw;
+	text-align: center;
+	border-radius: 50%;
+}
+
+#result-screen h1{
+	margin-bottom: 2vh;
+}
+
+h2{
+	font-size: 2.5vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+    overflow-wrap: normal;
+    overflow-y: hidden;
+    font-weight: bolder;
+}
+p{
+    color: red;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+}
+
+.header{
+    font-family: 'Amatic SC', cursive;
+    overflow-y: hidden;
+	color: red;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+    overflow: auto;
+    font-weight: bolder;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+.rounded-corner{
+	border-radius: 25px;
+}
+
+.background-image{
+	background-image: url('../images/SolarSystem.jpg');
+	width: 100%;
+	height: auto;
+}
+
+.circular-sb{
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	color: red;
+	border-radius: 50%;
+	height: 60vh;
+	margin-top: 20vh;
+	font-size: 5.5vw;
+}
+
+.circular-sb span{
+	position: relative;
+	top: 30%;
+}
+#result-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.answer-container, .statistics-container{
+	vertical-align: middle;
+	/* width: 70%; */
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5vh 0vw;
+	overflow: auto;
+}
+
+.answer-container:hover{
+    color: red;
+	border: 3px solid black;
+	border-radius: 25px;
+	background-color: blue;
+}
+
+.statistics-container{
+    width: 90%;
+    color: red;
+    font-weight: bolder;
+}
+
+#Earth{
+	width: 70%;
+	height: auto;
+	float: left;
+	position: relative;
+	right: 3vw;
+}
+
+#qa-container h2{
+    padding-bottom: .5vh;
+    overflow-y: hidden;
+}
+
+#main-content{
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+}
+
+#answer-choices, #statistics-content{
+	font-family: 'Amatic SC', cursive;
+	font-size: 2vw;
+}
+
+#gif-container{
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	overflow: auto;
+}
+
+#gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#verdict{
+	margin-top: 5vh;
+	margin-bottom: 10vh;
+}
+
+#final-statistics h1{
+	font-size: 5vw;
+	width: 75%;
+}
+
+#final-statistics h2{
+	font-size: 3.5vw;
+}
+
+#statistics{
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	margin-bottom: 5vh;
+}

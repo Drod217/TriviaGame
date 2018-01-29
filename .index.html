@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Planets Trivia</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/app.js"></script>
+	</head>
+	<body class = "background-image">
+		<div id = "opening-screen" class = "">
+			<div class = "row">
+				<div class = "col-xs-1">
+				</div>
+				<div class = "col-xs-6 text-center">
+					<h1>Planets Trivia!?</h1>
+				</div>
+				<div class="col-xs-5">
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-6">
+				</div>
+				<div class = "col-xs-2">
+					<p>Click anywhere key to begin</p>
+				</div>
+				<div class = "col-xs-4">
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-8">
+				</div>
+				<div class = "col-xs-1">
+					<p></p>
+				</div>
+				<div class = "col-xs-3">
+					<img src = "assets/images/Earth.jpg" alt = "Earth" id = "Earth">
+				</div>
+			</div>
+		</div>
+	<!--Screen divider-->
+		<div class = "hidden" id = "question-screen">
+			<div class = "row">
+				<div class="col-xs-3">
+				</div>
+				<div class = "col-xs-6">	
+					<h1 class=" text-center header rounded-corner">Tick Tock: <span id="time"></span></h1>
+				</div>
+				<div class = "col-xs-3">
+				</div>
+			</div>
+			<div class = "row" id = "main-content">
+				<div class = "col-xs-2">
+				</div>
+				<div class = "col-xs-8" text-center rounded-corner" id = "qa-container">
+					<h2 class="header">Question: <span id="question"></span></h2><br>
+					<h2 class = "header">Answer Choices:</h2><br>
+					<div id = "answer-choices">
+						<div class = "answer-container" choice = "a">A: <span id = "choice-a"></span></div><br>
+						<div class = "answer-container" choice = "b">B: <span id = "choice-b"></span></div><br>
+						<div class = "answer-container" choice = "c">C: <span id = "choice-c"></span></div><br>
+						<div class = "answer-container" choice = "d">D: <span id = "choice-d"></span></div><br>
+					</div>
+				</div>
+				<div class = "col-xs-2">
+				</div>
+			</div>
+		</div>
+	<!--Screen divider-->
+		<div class = "hidden" id = "result-screen">
+			<div class = "row">
+				<div class="col-xs-3">
+				</div>
+				<div class = "col-xs-6">	
+					<h1 class=" text-center header rounded-corner" id="result"></h1>
+					<h2 class=" text-center header rounded-corner" id="correct-answer"></h2>
+				</div>
+				<div class = "col-xs-3">
+				</div>
+			</div>
+			<div class = "row" id = "result-content">
+				<div class = "col-xs-4"></div>
+				<div class = "col-xs-4" text-center rounded-corner" id = "gif-container">
+					<div id = "gif">
+					</div>
+				</div>
+				<div class = "col-xs-4"></div>
+				</div>
+			</div>
+		</div>
+	<!--Screen divider-->
+		<div class = "hidden" id = "final-statistics">
+			<div class = "row">
+				<div class="col-xs-3">
+				</div>
+				<div class = "col-xs-6">	
+					<h1 class=" text-center header rounded-corner">Final Statistics</h1>
+					<h2 class=" text-center header rounded-corner" id="verdict"></h2>
+				</div>
+				<div class = "col-xs-3">
+				</div>
+			</div>
+			<div class = "row" id = "statistics-content">
+				<div class = "col-xs-3">
+				</div>
+				<div class = "col-xs-6" text-center rounded-corner" id = "statistics">
+					<div class = "statistics-container">Click anywhere to play again</div><br>
+					<div class = "statistics-container">Correct Answers: <span id = "Correct-tally"></span></div><br>
+					<div class = "statistics-container">Wrong Answers: <span id = "Wrong-tally"></span></div><br>
+					<div class = "statistics-container">Unanswered: <span id = "NoAnswer-tally"></span></div>
+				</div>
+				<div class = "col-xs-3">
+				</div>
+			</div>
+		</div>
+	</body>
